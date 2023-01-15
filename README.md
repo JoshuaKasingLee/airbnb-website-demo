@@ -6,9 +6,6 @@
 4. Constraints & Assumptions
 5. Teamwork
 6. Marking Criteria
-7. Originality of Work
-8. Submission
-9. Late Submission Policy
 
 ## 0. Change Log
 
@@ -420,53 +417,3 @@ Your assignment will be hand-marked by tutor(s) in the course according to the c
 		</td>
 	</tr>
 </table>
-
-## 7. Originality of Work
-
-The work you submit must be your own work.  Submission of work partially or completely derived from
-any other person or jointly written with any other person is not permitted.
-
-The penalties for such an offence may include negative marks, automatic failure of the course and
-possibly other academic discipline. Assignment submissions will be examined both automatically and
-manually for such submissions.
-
-Relevant scholarship authorities will be informed if students holding scholarships are involved in
-an incident of plagiarism or other misconduct.
-
-Do not provide or show your assignment work to any other person &mdash; apart from the teaching
-staff of COMP6080.
-
-If you knowingly provide or show your assignment work to another person for any reason, and work
-derived from it is submitted, you may be penalized, even if the work was submitted without your
-knowledge or consent.  This may apply even if your work is submitted by a third party unknown to
-you.
-
-Every time you make commits or pushes on this repository, you are acknowledging that the work you
-submit is your own work (as described above).
-
-Note you will not be penalized if your work has the potential to be taken without your consent or
-knowledge.
-
-**PLEASE NOTE: To ensure the originality of your work, we are requiring that you regularly commit your work to git throughout the weeks this assignment has been released. Regular and small commits and critical. Failures to commit regularly (or at minimum, failures to commit in small chunks) may result in allegations of plagiarism**
-
-## 8. Submission
-
-This assignment is due *Friday 18th November, 10pm*.
-
-To submit your assignment, simply run the following command on a CSE terminal:
-
-`$ 6080 submit ass3 [groupname]`
-
-This will submit the latest commit on master as your submission.
-
-<b>If you are working in a pair, only one group member needs to submit</b>
-
-### Dryrun
-
-You can run a dryrun to sanity check your code runs basically by:
-1. Pushing your code to master on gitlab
-2. On a CSE terminal (vlab or lab machine), run `6080 ass3dryrun GROUP_NAME` where GROUP_NAME is the name of your group
-
-## 9. Late Submission Policy
-
-No late submission are accepted.
